@@ -1,0 +1,11 @@
+invariant_feature_names
+ComParE13_LLD_25Hz_mfcc_sma[2]_amean
+ComParE13_LLD_25Hz_mfcc_sma[5]_amean
+ComParE13_LLD_25Hz_mfcc_sma[11]_amean
+VIDEO_40_LLD_AU15
+ComParE13_LLD_25Hz_jitterDDP_sma_amean
+ComParE13_LLD_25Hz_pcm_Mag_spectralRollOff75.0_sma_de_amean
+VIDEO_40_LLD_AU6
+VIDEO_40_LLD_AU12
+VIDEO_40_LLD_AU25
+VIDEO_40_LLD_Opt_mean

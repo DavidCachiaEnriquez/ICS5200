@@ -1,0 +1,30 @@
+-------- TEST CASE 7: MALE AND FEMALE ENVIRONS (2), TARGET LABEL: VALENCE --------
+
+-------- R Script Parameters --------
+ Rscript Path:		'C:/Program Files/R/R-4.4.3/bin/x64/Rscript.exe'
+ R File Path:		'invariant_features.R'
+ Function Name:		'inv_pred_recola'
+ Passed Parameters:	'['Formatted_Datasets/RECOLA_Test_Case_7.csv', 'Invariant_Features/inv_feat_RECOLA_Test_Case_7.csv']'
+
+-------- Invariant Features --------
+ ComParE13_LLD_25Hz_pcm_Mag_spectralFlux_sma_amean
+ ComParE13_LLD_25Hz_mfcc_sma[2]_amean
+ ECG_54_LLD_ECG_HR
+ ComParE13_LLD_25Hz_mfcc_sma[10]_amean
+ VIDEO_40_LLD_AU12
+ VIDEO_40_LLD_Opt_mean
+ EDA_62_LLD_EDA_std
+ EDA_62_LLD_EDA_meanDneg
+ ECG_54_LLD_ECG_kurtosis
+
+-------- Logistic Regression Results --------
+
+ COMPARING BETWEEN ALL FEATURES AND ONLY INVARIANT FEATURES
+ ACCURACY:	0.5723628092123969 -> 0.5916974694341769
+ PRECISION:	0.5531235750113999 -> 0.5811320754716981
+
+-------- Neural Networks Results --------
+
+ COMPARING BETWEEN ALL FEATURES AND ONLY INVARIANT FEATURES
+ ACCURACY:	0.580608473130509 -> 0.582598805800398
+ PRECISION:	0.5704301075268817 -> 0.5751816657350475

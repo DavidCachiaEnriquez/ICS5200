@@ -1,0 +1,12 @@
+invariant_feature_names
+ECG_54_LLD_ECG_skewness
+ComParE13_LLD_25Hz_audspec_lengthL1norm_sma_amean
+ComParE13_LLD_25Hz_pcm_Mag_harmonicity_sma_amean
+ComParE13_LLD_25Hz_mfcc_sma[1]_amean
+ComParE13_LLD_25Hz_mfcc_sma[14]_amean
+ECG_54_LLD_ECG_std
+VIDEO_40_LLD_Roll
+ECG_54_LLD_ECG_zcr
+EDA_62_LLD_SCR_NSImn
+VIDEO_40_LLD_AU12
+ECG_54_LLD_ECG_HR

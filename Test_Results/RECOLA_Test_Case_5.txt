@@ -1,0 +1,31 @@
+-------- TEST CASE 5: FEMALE PARTICIPANTS, TARGET LABEL: VALENCE --------
+
+-------- R Script Parameters --------
+ Rscript Path:		'C:/Program Files/R/R-4.4.3/bin/x64/Rscript.exe'
+ R File Path:		'invariant_features.R'
+ Function Name:		'inv_pred_recola'
+ Passed Parameters:	'['Formatted_Datasets/RECOLA_Test_Case_5.csv', 'Invariant_Features/inv_feat_RECOLA_Test_Case_5.csv']'
+
+-------- Invariant Features --------
+ ComParE13_LLD_25Hz_mfcc_sma[2]_amean
+ ComParE13_LLD_25Hz_mfcc_sma[5]_amean
+ ComParE13_LLD_25Hz_mfcc_sma[11]_amean
+ VIDEO_40_LLD_AU15
+ ComParE13_LLD_25Hz_jitterDDP_sma_amean
+ ComParE13_LLD_25Hz_pcm_Mag_spectralRollOff75.0_sma_de_amean
+ VIDEO_40_LLD_AU6
+ VIDEO_40_LLD_AU12
+ VIDEO_40_LLD_AU25
+ VIDEO_40_LLD_Opt_mean
+
+-------- Logistic Regression Results --------
+
+ COMPARING BETWEEN ALL FEATURES AND ONLY INVARIANT FEATURES
+ ACCURACY:	0.5863247863247864 -> 0.6524883028498512
+ PRECISION:	0.5364041604754829 -> 0.640926640926641
+
+-------- Neural Networks Results --------
+
+ COMPARING BETWEEN ALL FEATURES AND ONLY INVARIANT FEATURES
+ ACCURACY:	0.5105413105413106 -> 0.6018715440238197
+ PRECISION:	0.4504716981132075 -> 0.5699272433306386

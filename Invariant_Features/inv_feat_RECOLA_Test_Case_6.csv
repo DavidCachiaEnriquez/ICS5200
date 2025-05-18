@@ -1,0 +1,9 @@
+invariant_feature_names
+ComParE13_LLD_25Hz_audspec_lengthL1norm_sma_amean
+ComParE13_LLD_25Hz_mfcc_sma[2]_amean
+VIDEO_40_LLD_AU5
+VIDEO_40_LLD_AU17
+VIDEO_40_LLD_Opt_mean
+VIDEO_40_LLD_Opt_std
+Face_detection_probability
+VIDEO_40_LLD_Roll

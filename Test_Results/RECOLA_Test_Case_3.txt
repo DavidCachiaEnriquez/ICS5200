@@ -1,0 +1,9 @@
+-------- TEST CASE 3: MALE PARTICIPANTS, TARGET LABEL: VALENCE --------
+
+-------- R Script Parameters --------
+ Rscript Path:		'C:/Program Files/R/R-4.4.3/bin/x64/Rscript.exe'
+ R File Path:		'invariant_features.R'
+ Function Name:		'inv_pred_recola'
+ Passed Parameters:	'['Formatted_Datasets/RECOLA_Test_Case_3.csv', 'Invariant_Features/inv_feat_RECOLA_Test_Case_3.csv']'
+
+-------- No Invariant Features were found --------

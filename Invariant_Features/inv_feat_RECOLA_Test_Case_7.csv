@@ -1,0 +1,10 @@
+invariant_feature_names
+ComParE13_LLD_25Hz_pcm_Mag_spectralFlux_sma_amean
+ComParE13_LLD_25Hz_mfcc_sma[2]_amean
+ECG_54_LLD_ECG_HR
+ComParE13_LLD_25Hz_mfcc_sma[10]_amean
+VIDEO_40_LLD_AU12
+VIDEO_40_LLD_Opt_mean
+EDA_62_LLD_EDA_std
+EDA_62_LLD_EDA_meanDneg
+ECG_54_LLD_ECG_kurtosis
