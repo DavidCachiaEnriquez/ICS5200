@@ -21,10 +21,16 @@ inv_pred_recola <- function(input_file, output_file) {
   environments <- data$Participant_Number
 
   # OBTAIN INVARIANT CAUSAL PREDICTIONS
-  max_no_variables <- 12
-  result <- suppressWarnings(ICP(features, class_label, environments, alpha=0.01, selection = c("boosting"), maxNoVariables = max_no_variables , maxNoVariablesSimult = max_no_variables, showAcceptedSets = FALSE, showCompletion = FALSE)) #nolint
-  invariant_feature_indices <- unique(unlist(result$acceptedSets))
-  invariant_feature_names <- colnames(features)[invariant_feature_indices]
+  if (length(unique(environments)) > 1) { # STANDARD METHOD
+    max_no_variables <- 12
+    # 8, 12, 20, 36
+    result <- suppressWarnings(ICP(features, class_label, environments, alpha=0.01, selection = c("boosting"), maxNoVariables = max_no_variables , maxNoVariablesSimult = max_no_variables, showAcceptedSets = FALSE, showCompletion = FALSE)) #nolint
+    invariant_feature_indices <- unique(unlist(result$acceptedSets))
+    invariant_feature_names <- colnames(features)[invariant_feature_indices]
+  } else { # IF THERE IS ONLY 1 ENVIRONMENT
+    invariant_mask <- apply(features, 2, function(col) length(unique(col)) == 1)
+    invariant_feature_names <- colnames(features)[invariant_mask]
+  }
 
   # RETURN
   invariant_feature_df <- data.frame(invariant_feature_names)

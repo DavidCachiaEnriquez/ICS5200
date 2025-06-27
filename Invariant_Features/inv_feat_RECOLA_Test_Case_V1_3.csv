@@ -1,0 +1,10 @@
+invariant_feature_names
+ComParE13_LLD_25Hz_pcm_Mag_spectralFlux_sma_amean
+ECG_54_LLD_ECG_HR
+ECG_54_LLD_ECG_NLDmn
+ECG_54_LLD_ECG_std
+ECG_54_LLD_ECG_mean
+ComParE13_LLD_25Hz_mfcc_sma[9]_amean
+VIDEO_40_LLD_Roll
+EDA_62_LLD_EDA_std
+EDA_62_LLD_EDA_meanDneg
